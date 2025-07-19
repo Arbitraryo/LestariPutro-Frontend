@@ -6,7 +6,7 @@ function AtkList() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const apiUrl = "http://localhost:8000/api/atk?page=3";
+  const apiUrl = "https://lestariputro-backend-production.up.railway.app/api/atk?page=3";
 
   useEffect(() => {
     const fetchData = async () => {
